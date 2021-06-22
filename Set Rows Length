@@ -1,0 +1,8 @@
+# display all columns of the dataframe
+pd.options.display.max_columns = None
+
+# display all rows of the dataframe
+pd.options.display.max_rows = None
+
+# returns an output value upto 6 decimals
+pd.options.display.float_format = '{:.6f}'.format
