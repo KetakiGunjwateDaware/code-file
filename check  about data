@@ -1,0 +1,15 @@
+#top 5 record check
+df.head()
+
+#shape of data
+df.shape
+
+#discription of data
+df.describe()
+
+# discription of catgorical data
+df.describe(include=object)
+
+# datatypes of data
+df.dtypes
+
